@@ -70,6 +70,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 45px;
+    padding-bottom: 160px;
     font-family: 'Roboto', sans-serif;
     color: #1F2937;
 }
@@ -99,11 +100,38 @@ p {
 
 .blank-canvas {
     width: 100%;
-    height: 0;
+    height: 0px;
     padding-top: 100%;
     border-style: solid;
     border-color: #3882F6;
     border-width: 4px;
     border-radius: 20px;
+    min-width: 180px;
     margin: 0px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 120px 350px;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    gap: 12px;
+}
+
+.quote {
+    font-weight: light;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signed {
+    font-weight: 900;
+    text-align: right;
+    font-size: 22px;
+}
+
+.quote-section div {
+    min-width: 700px;
 }
