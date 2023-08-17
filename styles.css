@@ -1,6 +1,9 @@
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
@@ -139,12 +142,17 @@ p {
     align-items: center;
     background-color: #3882F6;
     padding: 60px 100px;
-    margin: 130px 200px;
+    margin: 100px 0px;
     border-radius: 16px;
     color: #E5E7EB;
+    min-width: 700px;
+    max-width: 700px;
 }
 
 .text div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     font-weight: 900;
     font-size: 22px;;
 }
@@ -156,4 +164,13 @@ p {
     color: #F9FAF8;
     border-color: #E5E7EB;
     border-style: solid;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 40px 0px;
 }
