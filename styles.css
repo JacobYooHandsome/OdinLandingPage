@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -7,7 +8,6 @@ body {
     margin-bottom: 80px;
     padding-top: 18px;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
     font-size: 18px;
     align-items: center;
@@ -15,7 +15,7 @@ body {
 
 a {
     padding: 0px 8px;
-    font-family: "roboto";
+    font-size: 16px;
 }
 
 img {
@@ -42,7 +42,6 @@ img {
 
 .hero {
     background-color: #1F2937;
-    font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px 240px;
     padding-bottom: 80px;
@@ -71,7 +70,6 @@ p {
     align-items: center;
     padding: 45px;
     padding-bottom: 160px;
-    font-family: 'Roboto', sans-serif;
     color: #1F2937;
 }
 
@@ -115,7 +113,6 @@ p {
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 120px 350px;
-    font-family: 'Roboto', sans-serif;
     color: #1F2937;
     gap: 12px;
 }
@@ -134,4 +131,29 @@ p {
 
 .quote-section div {
     min-width: 700px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 60px 100px;
+    margin: 130px 200px;
+    border-radius: 16px;
+    color: #E5E7EB;
+}
+
+.text div {
+    font-weight: 900;
+    font-size: 22px;;
+}
+
+.call-to-action button{
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 8px 30px;
+    color: #F9FAF8;
+    border-color: #E5E7EB;
+    border-style: solid;
 }
